@@ -1,0 +1,370 @@
+.container{
+    width: 1440;
+    height: 843;
+    angle: 0 deg;
+    opacity: 1;
+    background-color: #FFFFFF;
+}
+.navbar{
+     width: 1322;
+    height: 91;
+    left: 59px;
+    angle: 0 deg;
+    opacity: 1;
+    background: #FFFFFF;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.brandname{
+    width: 145;
+    height: 32;
+    top: 13px;
+    angle: 0 deg;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+}
+.navbar-collapse{
+    width: 815;
+    height: 58;
+    top: 16px;
+    left: 364px;
+    angle: 0 deg;
+    opacity: 1;
+}
+.horizontal-list-inline li {
+    display: inline-block;
+    /* Optional: Add some spacing */
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+/* Optional: Remove default list bullet points and padding from the parent container */
+.horizontal-list-inline {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation{
+    width: 275;
+    height: 24;
+    top: 17px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 21px;
+    display: flex;
+    list-style: none;
+
+}
+.entry{
+    width: 300;
+    height: 52;
+    top: 3px;
+    left: 515px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 45px;
+    display: flex;
+    list-style: none;
+}
+.login{
+    width: 41;
+    height: 22;
+    angle: 0 deg;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    text-align: right;
+}
+.join us box{
+    width: 137;
+    height: 52;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 15px;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    background: #96BB7C;
+    display: flex;
+}
+.join us{
+    width: 60;
+    height: 22;
+    angle: 0 deg;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+
+}
+.arrow{
+   width: 12;
+    height: 10;
+    angle: 0 deg;
+    opacity: 1;
+}
+.nav-toglar{
+    width: 24;
+    height: 13.714286804199219;
+    top: 39px;
+    left: 1298px;
+    angle: 0 deg;
+    opacity: 1;
+}
+.section{
+    width: 1044;
+    height: 401;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 30px;
+    margin-top: 50px;
+}
+.top collumn{
+    width: 1044;
+    height: 401;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 30px;
+
+}
+.left row{
+    width: 599;
+    height: 401;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 35px;
+
+}
+.head title{
+    width: 122;
+    height: 24;
+    angle: 0 deg;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+.headline{
+    width: 542;
+    height: 160;
+    angle: 0 deg;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 58px;
+    leading-trim: NONE;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+}
+.sublines{
+    width: 450;
+    height: 60;
+    angle: 0 deg;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+.learn or get it{
+    width: 365;
+    height: 52;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 10px;
+
+}
+.white{
+    width: 162;
+    height: 52;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    border-width: 1px;
+    border: 1px solid #96BB7C
+
+}
+.green{
+    width: 193;
+    height: 52;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    display: inline;
+    float: left;
+}
+.right row{
+    width: 415;
+    height: 280;
+    angle: 0 deg;
+    opacity: 1;
+}
+.bottom collumn{
+    width: 415;
+    height: 280;
+    angle: 0 deg;
+    opacity: 1;
+
+}
+.first row{
+    width: 328;
+    height: 296;
+    angle: 0 deg;
+    opacity: 1;
+
+}
+.computer .icon{
+    width: 72;
+    height: 72;
+    angle: 0 deg;
+    opacity: 1;
+
+}
+.features title{
+    width: 213;
+    height: 32;
+    angle: 0 deg;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    background: #252B42;
+
+}
+.paragraph{
+    width: 222;
+    height: 60;
+    angle: 0 deg;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    background: #737373;
+
+}
+.second row{
+    width: 329;
+    height: 296;
+    angle: 0 deg;
+    opacity: 1;
+
+
+}
+.telescope .icon{
+    width: 72;
+    height: 72;
+    angle: 0 deg;
+    opacity: 1;
+
+}
+.features title{
+    width: 257;
+    height: 32;
+    angle: 0 deg;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    background: #252B42;
+
+
+}
+.paragraph{
+    width: 222;
+    height: 60;
+    angle: 0 deg;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    background: #737373;
+
+}
+.third row{
+    width: 329;
+    height: 296;
+    angle: 0 deg;
+    opacity: 1;
+
+}
+.jar .icon{
+    width: 72;
+    height: 72;
+    angle: 0 deg;
+    opacity: 1;
+}
+.features title{
+    width: 72;
+height: 72;
+angle: 0 deg;
+opacity: 1;
+font-family: Montserrat;
+font-weight: 700;
+font-size: 24px;
+leading-trim: NONE;
+line-height: 32px;
+letter-spacing: 0.1px;
+background: #252B42;
+
+}
+.paragraph{
+    width: 222;
+height: 60;
+angle: 0 deg;
+opacity: 1;
+font-family: Montserrat;
+font-weight: 400;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 20px;
+letter-spacing: 0.2px;
+background: #737373;
+
+
+}
+
