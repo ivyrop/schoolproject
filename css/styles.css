@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}git
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background: #ffffff;
+}
+
+.brandname {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+}
+
+.navbar-collapse {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.navigation {
+  display: flex;
+  gap: 21px;
+  list-style: none;
+}
+
+.navigation li {
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.entry {
+  display: flex;
+  gap: 45px;
+  align-items: center;
+  list-style: none;
+}
+
+.login {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  color: #96bb7c;
+}
+
+.join-us-box {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  border-radius: 5px;
+  padding: 15px 25px;
+  background: #96bb7c;
+  cursor: pointer;
+}
+
+.join-us {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: white;
+}
+
+.arrow {
+  width: 12px;
+  height: 10px;
+}
+
+.section {
+  max-width: 1044px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.top-column {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 80px;
+  flex-wrap: wrap;
+}
+
+.left-row {
+  flex: 1;
+  min-width: 300px;
+}
+
+.head-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #96bb7c;
+  margin-bottom: 35px;
+}
+
+.headline {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  margin-bottom: 35px;
+}
+
+.sublines {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  margin-bottom: 35px;
+  color: #737373;
+}
+
+.learn-or-get-it {
+  display: flex;
+  gap: 10px;
+}
+
+.white {
+  border-radius: 5px;
+  padding: 15px 40px;
+  border: 1px solid #96bb7c;
+  background: white;
+  color: #96bb7c;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.green {
+  border-radius: 5px;
+  padding: 15px 40px;
+  background: #96bb7c;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+}
+
+.right-row {
+  width: 415px;
+  height: 280px;
+  background: #f0f0f0;
+}
+
+.bottom-column {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.feature-row {
+  flex: 1;
+  min-width: 280px;
+  padding: 35px 40px;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  width: 72px;
+  height: 72px;
+  margin-bottom: 20px;
+  background: #96bb7c;
+  border-radius: 10px;
+}
+
+.features-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.package {
+  max-width: 1044px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.main-section {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.image-section {
+  flex: 1;
+  min-width: 300px;
+  height: 400px;
+  background: #e0e0e0;
+}
+
+.aside-info {
+  flex: 1;
+  min-width: 300px;
+}
+
+.title-feature {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+
+.description-package {
+  font-size: 14px;
+  line-height: 20px;
+  color: #737373;
+  margin-bottom: 20px;
+}
+
+.learn-more {
+  color: #96bb7c;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.footer {
+  background: #252b42;
+  color: white;
+  padding: 50px 0;
+}
+
+.content-name {
+  max-width: 1044px;
+  margin: 0 auto;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 150px;
+}
+
+.footer-column h5 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.vertical-list {
+  list-style: none;
+}
+
+.vertical-list li {
+  margin-bottom: 10px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.made-by {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #444;
+}
